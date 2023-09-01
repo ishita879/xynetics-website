@@ -1,0 +1,98 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+    background-color: #48D1CC;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the logo image */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style headings and paragraphs */
+h1, h2 {
+    color: #333;
+}
+
+/* Style links */
+a {
+    color: #0000FF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #00008B;
+    color: #fff;
+}
+
+/* Add some spacing and margin to elements */
+header h1 {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+nav ul {
+    margin-top: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Add a subtle hover effect to navigation links */
+nav a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
